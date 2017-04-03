@@ -1,0 +1,55 @@
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.container-main {
+  width: 954px;
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-no-padding, .panel-body-no-padding {
+  padding: 0px;
+}
+
+.panel-group-no-margin, .panel-no-margin {
+  margin: 0px !important;
+}
+
+.panel-no-border-radius {
+  border-radius: 0px !important;
+  border:none;
+}
+
+.row-border{
+  border: 1px solid #5bc0de;
+}
+
+.col-right-border {
+  border: none;
+}
+
+.col-left-border {
+  border-right: 1px solid #5bc0de;
+}
+
+#detail .title {
+  margin-top: 0px;
+  color: #428bca;
+}
+
+#detail h4 {
+  color: #428bca;
+}

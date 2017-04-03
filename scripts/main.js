@@ -87,7 +87,11 @@ $(document).ready(function(){
 
   if($(location).attr("hash")) {
     var hash = $(location).attr("hash");
-    $(hash).click();
+    if (hash == "#nogo"){
+      $("#menu-index").click();
+    } else {
+      $(hash).click();
+    }
   } else {
     $("#menu-index").click();
   }

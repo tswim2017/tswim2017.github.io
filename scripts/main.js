@@ -1,5 +1,8 @@
 $(document).ready(function(){
-
+  $.ajaxSetup ({
+      // Disable caching of AJAX responses
+      cache: false
+  });
   $("ul a").click(function() {
     //$(this).parent().children("ul a").removeClass("active");
     $("ul a").removeClass("active");

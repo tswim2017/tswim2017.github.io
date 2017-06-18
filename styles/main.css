@@ -20,6 +20,12 @@
   display: flex;
 }
 
+.vcenter {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
 .col-no-padding, .panel-body-no-padding {
   padding: 0px;
 }

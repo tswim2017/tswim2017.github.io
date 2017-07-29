@@ -84,7 +84,7 @@ $(document).ready(function(){
   });
 
   $("#menu-transportation").on("click", function (e) {
-    document.title = "Hotel Accommodation"
+    document.title = "Transportation"
     $("#detail").load("contents/transportation_content.html");
   });
 
